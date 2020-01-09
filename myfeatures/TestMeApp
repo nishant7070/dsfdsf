@@ -1,0 +1,15 @@
+Feature: testMe app Validations
+
+background: enter url
+
+Scenario: login
+Given User launches the testme app
+Then  enter login credentials
+
+scenario: add cart
+Given user selects the item
+then add to cart
+
+Scenario: remove cart
+given initially item will be added
+them remove that item
